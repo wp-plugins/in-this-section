@@ -1,0 +1,51 @@
+# Copyright (C) 2010 In This Section Widget
+# This file is distributed under the same license as the In This Section Widget package.
+msgid ""
+msgstr ""
+"Project-Id-Version: In This Section Widget 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/in-this-section\n"
+"POT-Creation-Date: 2011-12-28 00:32:31+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: in-this-section.php:36
+msgid "Show links to other pages in the section, as defined in a custom menu"
+msgstr ""
+
+#: in-this-section.php:40 in-this-section.php:62 in-this-section.php:76
+msgid "In This Section"
+msgstr ""
+
+#: in-this-section.php:90
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: in-this-section.php:95
+msgid "Title:"
+msgstr ""
+
+#: in-this-section.php:99
+msgid "Select Menu:"
+msgstr ""
+
+#: in-this-section.php:152
+msgid "No other pages in this section."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "In This Section Widget"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A widget showing pages 'in this section', according to a custom menu. Great "
+"for CMS."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Tom Fletcher"
+msgstr ""
