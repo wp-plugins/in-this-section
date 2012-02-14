@@ -134,7 +134,7 @@ function its_section_menu( $menu ) {
 	$menu_arr = explode( '*', $menu );
 	
 	// find the key for the array entry with current-menu-item
-	$current_item_key = its_search_in_array( 'current-menu-item', $menu_arr );	
+	$current_item_key = its_search_in_array( 'current-menu', $menu_arr );	
 	
 	// check the array entry is a sub-menu
 	if( its_in_string( '%%sub-menu%%', $menu_arr[$current_item_key] ) ) {

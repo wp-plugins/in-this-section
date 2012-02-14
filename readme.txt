@@ -4,6 +4,7 @@ Tags: custom menus, widget
 Requires at least: 3.1.3
 Tested up to: 3.3
 Stable tag: 1.0
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=YG6P2JSSRLDJC&lc=GB&item_name=Tom%20Fletcher&currency_code=GBP&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted
 
 Show a list of links to other pages within the same section, as defined in a custom menu. Great for CMS.
 
@@ -24,7 +25,15 @@ Alternatively install directly from the WordPress admin panel.
 
 == Changelog ==
 
+= 1.0.1 =
+* Fix for using widget on pages outside realm of nav menu e.g. posts
+
 = 1.0 =
 * Initial Release
 * Option to choose custom menu
 * Ready for translation
+
+== Upgrade Notice ==
+
+= 1.0.1 =
+This release fixes an issue where the list would be incorrectly rendered for pages that are descendent of a menu item, but not included in the menu e.g posts. This upgrade is recommended for all users.
