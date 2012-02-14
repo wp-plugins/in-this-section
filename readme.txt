@@ -25,6 +25,9 @@ Alternatively install directly from the WordPress admin panel.
 
 == Changelog ==
 
+= 1.0.2 =
+* Better fix for issue in 1.0.1
+
 = 1.0.1 =
 * Fix for using widget on pages outside realm of nav menu e.g. posts
 
@@ -35,5 +38,5 @@ Alternatively install directly from the WordPress admin panel.
 
 == Upgrade Notice ==
 
-= 1.0.1 =
+= 1.0.2 =
 This release fixes an issue where the list would be incorrectly rendered for pages that are descendent of a menu item, but not included in the menu e.g posts. This upgrade is recommended for all users.
