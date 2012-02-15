@@ -138,8 +138,8 @@ function its_section_menu( $menu ) {
 	
 	if( $current_item_key === false )
 		$current_item_key = its_search_in_array( 'current_page', $menu_arr );
-	
-	if( !$current_item_key === false ) // this page or it's ancestors doesn't seem to be represented in the nav menu
+		
+	if( $current_item_key === false ) // this page or it's ancestors doesn't seem to be represented in the nav menu
 		return '<p>'. __('No other pages in this section.', 'in-this-section').'</p>';
 	
 	// check the array entry is a sub-menu

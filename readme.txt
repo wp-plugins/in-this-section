@@ -25,6 +25,9 @@ Alternatively install directly from the WordPress admin panel.
 
 == Changelog ==
 
+= 1.0.3 =
+* Fix regression in 1.0.2
+
 = 1.0.2 =
 * Better fix for issue in 1.0.1
 
@@ -38,5 +41,5 @@ Alternatively install directly from the WordPress admin panel.
 
 == Upgrade Notice ==
 
-= 1.0.2 =
-This release fixes an issue where the list would be incorrectly rendered for pages that are descendent of a menu item, but not included in the menu e.g posts. This upgrade is recommended for all users.
+= 1.0.3 =
+This release fixes an issue where the list would be incorrectly rendered for pages that are descendent of a menu item, but not included in the menu such as posts. Version 1.0.3 fixes a regression in 1.0.2. This upgrade is recommended for all users.
